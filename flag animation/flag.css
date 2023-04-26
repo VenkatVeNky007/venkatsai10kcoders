@@ -1,0 +1,265 @@
+/* robots start*/
+.robot{
+    position: absolute;
+    bottom: 0;
+    left:10px;
+    top: 230px;
+}
+
+.robot2{
+    position: absolute;
+    bottom: 0;
+    left: -140px;
+    top: 230px;
+}
+
+.robot3{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    top: 230px;
+}
+
+.robot4{
+    position: absolute;
+    bottom: 0;
+    left: 290px;
+    top: 230px;
+}
+
+.robot5{
+    position: absolute;
+    bottom: 0;
+    left: 430px;
+    top: 230px;
+}
+.robot div,.robot2 div,.robot3 div,.robot4 div,.robot5 div{
+    position: absolute;
+}
+
+
+.head{
+    width: 80px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    top: 100px;
+    left: 250px;
+    
+
+
+    }
+   
+   .rhand {
+        width:20px ;
+        min-height: 50px;
+        background-color: black;
+        top: 225px;
+        left: 218px;
+        border-radius: 40% 40%;
+        transform: rotate(15deg);
+        margin-bottom: 20px;
+        animation: rght 5s 1  ;
+        animation-fill-mode: forwards;
+        animation-delay: 12.5s;
+    }
+    @keyframes rght{
+        from{height: 50px; top: 225px;left: 218px; transform: rotate(15deg);}
+        to{ height:55px;top: 200px;left: 218px;transform: rotate(100deg);}
+    }
+    
+    .rhand2{
+        width:20px ;
+        min-height: 70px;
+        background-color: black;
+        top: 272px;
+        left: 210px;
+        border-radius: 40% 40%;
+        transform: rotate(1deg);
+        margin-bottom: 20px;
+        animation: rght2 5s  1 forwards;
+        animation-delay: 13s;
+     }
+
+     @keyframes rght2 {
+        0%{height:70px;top: 272px;left: 210px;transform: rotate(0deg); }
+        50%{height: 70px; top: 200px;left: 160px;transform:rotate(90deg);}
+        100%{height:90px;top: 140px;left: 210px;transform:rotate(220deg);}
+        
+     }
+
+    .bdy{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border-radius: 50% 50% 30% 30%;
+        top:200px;
+        left: 242px;
+        
+    }
+
+    .rleg{
+        width: 30px;
+        height: 100px;
+        background-color: black;
+        border-radius: 20% 20% 100% 100%;
+        top: 302px;
+        left: 260px;
+        
+
+    }
+
+    
+    .lleg{
+        width: 30px;
+        height: 100px;
+        background-color: black;
+        border-radius: 20% 20% 100% 100%;
+        top: 302px;
+        left: 295px;
+         }
+         /* robots end */
+
+/* flag start */
+
+.flags{
+    position: absolute;
+    bottom: 55px;
+    right: 200px;
+}
+
+.basegreen{
+    height: 30px;
+    width: 200px;
+    background-color:rgb(253, 119, 119);
+}
+.basewhite{
+    height: 30px;
+    width: 160px;
+    background-color:rgb(245, 102, 102);
+    border-bottom: 0px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.baseorange{
+    height: 30px;
+    width: 120px;
+    background-color:rgb(223, 114, 114);
+    margin-left: 40px;
+}
+
+
+.flagrod{
+    height:450px;
+    width: 10px;
+    background-color: black;
+    margin-left: 95px;
+}
+
+#ashoka{
+    
+    height: 100%;
+}
+
+.flag2{
+    position:absolute;
+    bottom: 155px;
+    left: 1072px;
+    width: 0px;
+    overflow: hidden; 
+    animation: flagan 5s forwards 1 ;  
+    animation-delay: 7s; 
+}
+
+@keyframes flagan {
+    from{  bottom: 155px;
+        left: 1072px;
+        width: 0px;
+}
+
+    to{
+        bottom: 460px;
+        width: 250px;
+    }
+    
+}
+
+/* flag end */
+
+/* heading */
+
+.get{
+    font-size: 200px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 200px;
+    animation: get 2s forwards;
+    opacity: 0;
+    animation-delay: 1s;
+       
+}
+
+@keyframes get {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+    
+}
+.ready{
+    font-size: 200px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 80px;
+    animation: ready 2s forwards;
+    animation-delay: 3s;
+    opacity: 0;   
+}
+
+@keyframes ready {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.go{
+    font-size: 200px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 250px;
+    animation: go 2s forwards;
+    animation-delay: 5s;
+    opacity: 0; 
+}
+
+@keyframes go {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.thank{
+    font-size: 150px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 60px;
+    left: 30px;
+    animation: thank 2s forwards;
+    animation-delay: 18s;
+    opacity: 0; 
+}
+
+@keyframes thank {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+
+    
+   
+

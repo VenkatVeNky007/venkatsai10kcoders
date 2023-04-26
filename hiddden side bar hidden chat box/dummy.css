@@ -1,0 +1,138 @@
+body{
+    padding-top:50px;
+}
+
+#nav{
+    text-align: center;
+    background-color: aliceblue;
+    float: left;
+    height: 1000px;
+    width:0PX;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+    overflow: hidden;
+    }
+
+
+/* menu icon */
+ .icon{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+ } 
+
+
+       
+#trans{
+    position: fixed;
+    top: 20px;
+            }
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(225, 240, 253);
+    margin-top: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+    display: none;
+}
+
+a:hover{
+    background-color: aquamarine;
+ }
+
+#trans:hover #nav{
+    width: 300px;
+}
+
+#trans:hover a{
+    display: block;
+}
+
+
+
+.menu{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.item1{
+    background-color: rgba(214, 212, 212, 0.753);
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 25PX;
+}
+
+.menu h1{
+    text-align: left;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+/* chatbox start */
+div#chatbox{
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    width: 25%;
+    height: 20px;
+    border: 2px solid black;
+    border-top: 0;
+    background-color: rgb(255, 197, 111);
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+        
+ }
+#chatbox:hover{
+    height: 400px;
+    bottom: 0px;
+
+}
+ h3{
+    background-color:sienna;
+    margin-top: 0;
+    color: wheat;
+    text-align: center;
+}
+
+input{
+    position:relative;
+top: 25px;
+left: 1px;
+}
+
+
+
+#sent{
+    text-align: right;
+    margin-right: 16px;
+}
+p span{
+    background-color:white;
+    padding: 5px;
+    border-radius: 10px;
+    
+   
+}
+sub{
+    opacity: 0.5;
+}
+
+#receive{
+         margin-left: 16px;
+}
+
